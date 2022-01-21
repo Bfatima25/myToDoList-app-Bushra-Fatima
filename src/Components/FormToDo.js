@@ -4,7 +4,9 @@ const FormToDo = () => {
     return(
         <form>
             <input type="text" className="input-todolist" />
-            <button className="button-todolist" type="submit">ADD</button>
+            <button className="button-todolist" type="submit">
+                <i class="fas fa-search-plus"></i>
+            </button>
             <div className="select">
                 <select name="todos" className="show-todo">
                     <option value="all-todo">All</option>
